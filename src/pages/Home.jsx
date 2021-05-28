@@ -12,6 +12,7 @@ function Home() {
 
     return (
         <>
+            {console.log("catalog in Home return: " + catalog)}
             {!catalog.length ? (
                 <Preloader />
             ) : (
