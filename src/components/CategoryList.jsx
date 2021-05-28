@@ -2,9 +2,9 @@ import { CategoryListItem } from "./CategoryListItem";
 
 function CategoryList(catalog) {
     return (
-        <div className="categor-list">
+        <div className="category-list">
             {catalog.map((item) => (
-                <CategoryListItem key={item.id} />
+                <CategoryListItem key={item.idCategory} />
             ))}
         </div>
     );

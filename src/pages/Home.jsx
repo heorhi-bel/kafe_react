@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllCategories } from "../api/api";
+import { getAllCategories } from "../api/api.js";
 import { CategoryList } from "../components/CategoryList";
 import { Preloader } from "../components/Preloader";
 
