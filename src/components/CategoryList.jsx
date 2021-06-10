@@ -7,6 +7,7 @@ function CategoryList(props) {
             {catalog.map((item) => (
                 <CategoryListItem
                     key={item.idCategory}
+                    idCategory={item.idCategory}
                     strCategory={item.strCategory}
                     strCategoryDescription={item.strCategoryDescription}
                     strCategoryThumb={item.strCategoryThumb}

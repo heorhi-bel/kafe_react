@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function CategoryListItem({
     idCategory,
     strCategoryThumb,
@@ -16,6 +18,11 @@ function CategoryListItem({
                     </div>
                     <div className="card-content">
                         <p>{strCategoryDescription}</p>
+                    </div>
+                    <div className="card-action">
+                        <Link to={`/category/${strCategory}`} className="btn">
+                            To see category
+                        </Link>
                     </div>
                 </div>
             </div>
