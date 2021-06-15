@@ -2,7 +2,7 @@ import { Meal } from "../components/Meal";
 
 function MealList({ meals }) {
     return (
-        <div className="list">
+        <div className="meal-list">
             {meals.map((meal) => (
                 <Meal
                     key={meal.idMeal}
