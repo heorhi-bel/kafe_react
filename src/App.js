@@ -12,7 +12,7 @@ import {NotFound} from './pages/NotFound'
 
 function App() {
   return <>
-    <Router>
+    <Router basename="/kafe_react">
       <Header />
       <main className="container content">
           <Switch>

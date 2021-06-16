@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <nav className="pink lighten-3">
+        <nav className="red lighten-3">
             <div className="nav-wrapper">
                 <Link to="/" className="brand-logo">
-                    React Shop
+                    React KAFE
                 </Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li>
@@ -16,7 +16,7 @@ function Header() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/heorhi-bel/shop_react"
+                            href="https://github.com/heorhi-bel/kafe_react"
                             target="_blank"
                             rel="noreferrer"
                         >
